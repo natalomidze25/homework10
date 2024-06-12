@@ -16,7 +16,7 @@ public class Car extends Vehicle{
 
     @Override
     public String toString(){
-        return "Person{model='" + model + "', brandName=" + BrandName() + "}";
+        return "Car{model='" + getModel() + "', brandName='" + getBrandName() + "' wheelCount ="+ wheelCount +" , releaseYear ="+ getReleaseYear()+"}";
 
 
     }

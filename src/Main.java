@@ -7,6 +7,8 @@ public class Main {
 
 
         Vehicle vehicle = new Vehicle("BMW", "mercedes", 1996);
+        Car car = new Car("mersedes", "BMW", 1996, 4);
+        System.out.println(car.toString());
 
 
     }
